@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Which Python keyword is used to handle exceptions?",
+    "options": ["catch", "try", "except", "throw"],
+    "answer": "except"
+  },
+  {
+    "question": "What type of vulnerability occurs when user input is directly interpreted as a database command?",
+    "options": ["Cross-Site Scripting", "SQL Injection", "Buffer Overflow", "Command Injection"],
+    "answer": "SQL Injection"
+  },
+  {
+    "question": "In React, which hook would you use to perform a side effect like fetching data from an API?",
+    "options": ["useState", "useContext", "useMemo", "useEffect"],
+    "answer": "useEffect"
+  },
+  {
+    "question": "Which tool is commonly automated for database exploitation using parameters like --dbs and --tables?",
+    "options": ["Nmap", "Wireshark", "sqlmap", "Metasploit"],
+    "answer": "sqlmap"
+  },
+  {
+    "question": "What does the Django ORM stand for?",
+    "options": ["Object-Relational Mapping", "Object-Result Manager", "Online-Relational Matrix", "Output-Render Module"],
+    "answer": "Object-Relational Mapping"
+  },
+  {
+    "question": "Which HTTP method is typically used to update an existing resource completely?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "answer": "PUT"
+  },
+  {
+    "question": "In Next.js, which directory structure is utilized for App Router based navigation?",
+    "options": ["/src/pages", "/app", "/routes", "/views"],
+    "answer": "/app"
+  },
+  {
+    "question": "Which of the following is an exploit development library written in Python?",
+    "options": ["Scrapy", "Pwntools", "BeautifulSoup", "NumPy"],
+    "answer": "Pwntools"
+  },
+  {
+    "question": "What flag is used in Nmap to enable service version detection?",
+    "options": ["-sS", "-sV", "-O", "-A"],
+    "answer": "-sV"
+  },
+  {
+    "question": "What is the purpose of a Cross-Site Request Forgery (CSRF) token?",
+    "options": ["To encrypt user passwords", "To protect against unauthorized actions from a trusted user", "To prevent SQL Injection attacks", "To compress HTTP responses"],
+    "answer": "To protect against unauthorized actions from a trusted user"
+  },
+  {
+    "question": "Which of these data types is immutable in Python?",
+    "options": ["List", "Dictionary", "Tuple", "Set"],
+    "answer": "Tuple"
+  },
+  {
+    "question": "What does JSON stand for?",
+    "options": ["JavaScript Object Notation", "Java Source Open Network", "Justified System Output Number", "Junction System Object Name"],
+    "answer": "JavaScript Object Notation"
+  },
+  {
+    "question": "What mechanism does React use to optimize DOM updates by comparing changes in memory first?",
+    "options": ["Shadow DOM", "Virtual DOM", "Direct DOM", "Fiber Net"],
+    "answer": "Virtual DOM"
+  },
+  {
+    "question": "Which Metasploit interface provides a command-line environment to configure modules?",
+    "options": ["msfvenom", "msfconsole", "Armitage", "msfdb"],
+    "answer": "msfconsole"
+  },
+  {
+    "question": "Which vulnerability allows attackers to inject malicious client-side scripts into web pages viewed by others?",
+    "options": ["SQL Injection", "Cross-Site Scripting (XSS)", "Insecure Direct Object References", "Broken Authentication"],
+    "answer": "Cross-Site Scripting (XSS)"
+  },
+  {
+    "question": "In Python OOP, what does the 'super()' function do?",
+    "options": ["Terminates the program execution", "Calls a method from the parent class", "Creates a global variable", "Increases memory allocation speed"],
+    "answer": "Calls a method from the parent class"
+  },
+  {
+    "question": "What is the default port used by an unencrypted HTTP connection?",
+    "options": ["443", "22", "80", "8080"],
+    "answer": "80"
+  },
+  {
+    "question": "Which function is used to add an item to the end of a list in Python?",
+    "options": ["add()", "push()", "insert()", "append()"],
+    "answer": "append()"
+  },
+  {
+    "question": "In a relational database, what constraint uniquely identifies each record in a table?",
+    "options": ["Foreign Key", "Unique Index", "Primary Key", "Check Constraint"],
+    "answer": "Primary Key"
+  },
+  {
+    "question": "Which Pwntools function allows you to switch a script to manual control to interact directly with a spawned shell?",
+    "options": ["recvall()", "sendline()", "interactive()", "connect()"],
+    "answer": "interactive()"
+  },
+  {
+    "question": "What kind of rendering fetches data and generates HTML at build time in Next.js?",
+    "options": ["Server-Side Rendering (SSR)", "Static Site Generation (SSG)", "Client-Side Rendering (CSR)", "Incremental Hydration"],
+    "answer": "Static Site Generation (SSG)"
+  },
+  {
+    "question": "What type of attack involves overwhelming a network or server with traffic to make it unavailable?",
+    "options": ["Man-in-the-Middle", "Phishing", "Denial of Service (DoS)", "SQL Injection"],
+    "answer": "Denial of Service (DoS)"
+  },
+  {
+    "question": "Which command-line argument can be used in sqlmap to dump the actual data contents of a table?",
+    "options": ["--dbs", "--tables", "--dump", "--columns"],
+    "answer": "--dump"
+  },
+  {
+    "question": "How do you define a dictionary in Python?",
+    "options": ["[]", "()", "{}", "<>"],
+    "answer": "{}"
+  },
+  {
+    "question": "What does a 404 HTTP status code mean?",
+    "options": ["Internal Server Error", "Unauthorized Access", "Bad Request", "Not Found"],
+    "answer": "Not Found"
+  },
+  {
+    "question": "Which command is used to check the structural layout of tables inside a target database manually?",
+    "options": ["SELECT", "DESCRIBE", "UPDATE", "ALTER"],
+    "answer": "DESCRIBE"
+  },
+  {
+    "question": "What is the main benefit of using a Virtual Environment (venv) in Python?",
+    "options": ["It makes the code run faster", "It isolates project dependencies from the global system", "It automatically generates documentation", "It encrypts the source code files"],
+    "answer": "It isolates project dependencies from the global system"
+  },
+  {
+    "question": "Which standard is used for securely passing claims between a client and a server as a JSON object, often used in API authentication?",
+    "options": ["OAuth1", "OAuth2", "JWT (JSON Web Token)", "SAML"],
+    "answer": "JWT (JSON Web Token)"
+  },
+  {
+    "question": "In React, how are properties (props) passed down to child components?",
+    "options": ["Bi-directionally", "Unidirectionally (Top-down)", "Via global window object", "Bottom-up"],
+    "answer": "Unidirectionally (Top-down)"
+  },
+  {
+    "question": "What Nmap scan option is known as a 'Half-Open' or Stealth scan because it doesn't complete the full TCP handshake?",
+    "options": ["-sT (TCP Connect)", "-sU (UDP Scan)", "-sS (SYN Scan)", "-sA (ACK Scan)"],
+    "answer": "-sS (SYN Scan)"
+  },
+  {
+    "question": "Which Python module is explicitly built into the standard library to read and write JSON data?",
+    "options": ["jsonlib", "json", "simplejson", "jsondata"],
+    "answer": "json"
+  },
+  {
+    "question": "What vulnerability happens when data exceeds the allocated memory space of a program's runtime stack?",
+    "options": ["SQL Injection", "Cross-Site Scripting", "Buffer Overflow", "Broken Access Control"],
+    "answer": "Buffer Overflow"
+  },
+  {
+    "question": "Which command in Metasploit allows you to look for modules matching a specific exploit or software name?",
+    "options": ["find", "search", "locate", "use"],
+    "answer": "search"
+  },
+  {
+    "question": "What statement is used to exit a loop prematurely in Python?",
+    "options": ["continue", "exit", "stop", "break"],
+    "answer": "break"
+  },
+  {
+    "question": "What type of XSS attack stores a malicious script permanently on a target server's database?",
+    "options": ["Reflected XSS", "Stored XSS", "DOM-based XSS", "Blind XSS"],
+    "answer": "Stored XSS"
+  },
+  {
+    "question": "In Django, where do you write the logic that processes requests and returns web responses?",
+    "options": ["models.py", "urls.py", "views.py", "admin.py"],
+    "answer": "views.py"
+  },
+  {
+    "question": "What does a 201 HTTP status code represent?",
+    "options": ["OK", "Created", "Accepted", "No Content"],
+    "answer": "Created"
+  },
+  {
+    "question": "Which of these functions converting data types will fail if passed the string 'hello'?",
+    "options": ["str()", "float()", "bool()", "type()"],
+    "answer": "float()"
+  },
+  {
+    "question": "What flag do you use in sqlmap to read target application requests directly from a saved HTTP plain-text file?",
+    "options": ["-u", "-r", "-m", "-g"],
+    "answer": "-r"
+  },
+  {
+    "question": "What is the primary architectural style of modern web APIs that relies on standard stateless HTTP methods?",
+    "options": ["SOAP", "GraphQL", "gRPC", "REST"],
+    "answer": "REST"
+  },
+  {
+    "question": "Which hook can be used to reference a mutable DOM node directly without causing a re-render in React?",
+    "options": ["useRef", "useEffect", "useReducer", "useState"],
+    "answer": "useRef"
+  },
+  {
+    "question": "What is the name of the tool used inside the Metasploit framework to generate payloads and shellcode configurations?",
+    "options": ["msfconsole", "msfvenom", "msfdb", "meterpreter"],
+    "answer": "msfvenom"
+  },
+  {
+    "question": "How do you check the length of a list or string in Python?",
+    "options": ["length()", "size()", "count()", "len()"],
+    "answer": "len()"
+  },
+  {
+    "question": "Which file in a Next.js App Router project specifies a shared visual structure layout across multiple subpages?",
+    "options": ["page.js", "layout.js", "template.js", "global.css"],
+    "answer": "layout.js"
+  },
+  {
+    "question": "What type of SQL Injection does not visibly display database error messages or output directly on the webpage?",
+    "options": ["Error-Based SQLi", "Union-Based SQLi", "Blind SQLi", "Stacked Queries SQLi"],
+    "answer": "Blind SQLi"
+  },
+  {
+    "question": "Which command configuration runs a full local loopback scan target?",
+    "options": ["nmap 192.168.1.1", "nmap 127.0.0.1", "nmap 0.0.0.0", "nmap 8.8.8.8"],
+    "answer": "nmap 127.0.0.1"
+  },
+  {
+    "question": "What parameter is traditionally modified to change server-side structural configuration fields in Django?",
+    "options": ["settings.py", "manage.py", "wsgi.py", "apps.py"],
+    "answer": "settings.py"
+  },
+  {
+    "question": "Which format uses structural brackets and key-value pairings to store system metadata objects natively?",
+    "options": ["XML", "YAML", "JSON", "CSV"],
+    "answer": "JSON"
+  },
+  {
+    "question": "What is the index of the very first element in any given Python list?",
+    "options": ["1", "-1", "0", "None"],
+    "answer": "0"
+  },
+  {
+    "question": "What is the default interactive payload session created upon a successful advanced Metasploit framework exploit execution?",
+    "options": ["Bash Shell", "Netcat Listener", "Meterpreter Session", "SSH Connection"],
+    "answer": "Meterpreter Session"
+  }
+]
