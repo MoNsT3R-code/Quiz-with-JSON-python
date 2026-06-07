@@ -1,6 +1,5 @@
 # Updated_json_quiz
 
-## Here is a concise version of the **README.md** file, keeping only the essential details needed to document and run your project suite.
 ```markdown
 # OOP Cybersecurity Quiz Engine
 A modular, terminal-based quiz application built in Python using advanced Object-Oriented Programming (OOP) architectures, clean encapsulation, and type inference.
