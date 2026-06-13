@@ -150,4 +150,3 @@ The code avoids expensive runtime exceptions by performing rigorous system state
 ## 📄 License & Terms
 This project is open-source. Feel free to copy, modify, and redistribute the modular quiz application framework as required.
 
-Built with ❤️ for Clean Python Engineering Excellence
